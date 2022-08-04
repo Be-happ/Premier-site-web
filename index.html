@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Pharaon</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="/images/logopharaonV.svg" alt=""></div>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navbar">
+            <li><a href="#banniere" onclick="toggleMenu();">Accueil</a></li>
+            <li><a href="#apropos" onclick="toggleMenu();">A propos</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Soirees</a></li>
+            <li><a href="#expert" onclick="toggleMenu();">Photo</a></li>
+            <li><a href="#temoignage" onclick="toggleMenu();">DressCode</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banniere" id="banniere"></section>
+    <section class="apropos" id="apropos">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titre-texte"><span>A</span> Propos De Nous</h2>
+                <p>Viens faire l’expérience du club incontournables du village naturiste et de la région. Tu veux passer une soirée tumultueuse, danser, te montrer, boire un verre seul ou entre amis, une piste de danse, une backroom et un bar sont à ta disposition dans un lieu ouvert et décalé, ou la tolérance et le partage sont le maitre mot.
+                    <span><br><br> POUR LES TARIFS : <br>
+                    Couple avec 2 consos : 30€ <br>
+                    Homme seul avec 2 consos 60€ <br></span>
+                </p>
+            </div>
+            <div class="col50">
+                <div class="img">
+                    <img src="./images/portrait-of-haughty-egyptian-queen-in-an-ancient-pharaoh-costume-with-two-concubines-isolated-on-dark-background (2).jpg" alt="image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <div class="titre">
+            <h2 class="titre-texte"><span>S</span>oirées</h2>
+            <p>Chaque semaine, le club propose un thème. </p>
+        </div>
+        <div class="contenu">
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/LUNDI-TRIO.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/MARDI-ARMY.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/MERCREDI-NEFERTITI.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/JEUDI-STRING.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/VENDREDI--WHIE-and-BLACK.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/SAMEDI-NIGHT-FEVER.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/DIMANCHE-TROTINETTE.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3></h3>
+                </div>
+            </div>
+        </div>
+        <div class="titre">
+            <a href="#" class="btn1">Voir Plus</a>
+        </div>
+    </section>
+    <section class="expert" id="expert">
+        <div class="titre">
+            <h2 class="titre-texte"><span>P</span>hotos</h2>
+            <p></p>
+        </div>
+        <div class="body">
+            <div id="popup-bg">
+                <div id="popup-content">
+                <div id="popup-close">
+                    <ion-icon name="close-circle"></ion-icon>
+                </div>
+                <img id="popup-img" src="#" alt="" />
+                </div>
+            </div>
+            <div id="grid">
+                <div class="grid-item" id="nature-1">
+                <img src="./images/imagezefzs.jpg" alt="" class="grid-img" />
+                </div>
+                <div class="grid-item" id="nature-2">
+                <img src="./images/downloadfefe.jpg" alt="" class="grid-img" />
+                </div>
+                <div class="grid-item" id="nature-3">
+                <img src="./images/Affiche-en-tissu-d-art-mural-imprim-personnalis-sexy-fille-fond-noir-TTS73-pour-d-coration.jpg" alt="" class="grid-img" />
+                </div>
+                <div class="grid-item" id="nature-4">
+                <img src="./images/robe.jpg.jpg" alt="" class="grid-img" />
+                </div>
+                <div class="grid-item" id="nature-5">
+                <img src="./images/images.jpg" alt="" class="grid-img" />
+                </div>
+                <div class="grid-item" id="nature-6">
+                <img src="./images/nature-6.jpg" alt="" class="grid-img" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="temoignage" id="temoignage">
+        <div class="titre-blanc">
+            <h2 class="titre-texte"><span>D</span>RESSE CODE  <span>R</span>ECOMMANDATIONS</h2>
+        </div>
+        <div class="contenu">
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/robe.jpg.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>POUR LES DAMES</h3>
+                    <p>Mesdames, soyez féminines, belles et désirables. Adaptez vos tenues aux différents thèmes de nos soirées. Une robe sexy, une jupe... Laissez votre part la plus sexy s’exprimer.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/homme-Copie.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>POUR LES MESSIEURS</h3>
+                    <p>Parfumez-vous et apprêtez-vous ! Faites-vous beau. Le costume n’est pas obligatoire mais un pantalon et une belle chemise sauront certainement faire la différence auprès de ces dames. Shorts et joggings sont interdits.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/regle-Copie-scaled.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>RECOMMANDATIONS</h3>
+                    <p>L’entrée de l’établissement est réservée aux adultes de plus de 18 ans.
+                        Une attitude courtoise et respectueuse est exigée.
+                        La direction se réserve le droit d’entrée.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="contact" id="contact">
+        <h1><span>C</span>ontact</h1>
+        <div class="pipi">
+        <div class="left">
+            <img class="logo-bas" src="/images/logopharaonV.svg"  alt="">
+            <p>Port Ambonne Village Naturiste <br>
+                34300 Cap d'Agde</p>
+            <p>TEL: 04 67 26 93 26</p>
+        </div>
+        <div class="right">
+            <h3>Horaires</h3>
+            <p>Hiver Samedi & Veilles de Fêtes <br>
+                à partir de 23h</p>
+            <p>Eté 7 jours sur 7 <br>
+                à partir de 23h</p>
+        </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <section class="ggmap">
+        <div class="container-ggmap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.8839043055036!2d3.523782715769293!3d43.29575288348808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b13bcb8021e1dd%3A0xf7fac2dd20070d18!2sLE%20PHARAON%20ClubLibertin!5e0!3m2!1sfr!2sfr!4v1658309837507!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>CopyRight<a href="#">ByJulesGrard</a>HTML CSS JS</p>
+    </div>
+    <script src="script.js"></script>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header =document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0 );
+        });
+
+        function toggleMenu(){
+            const tmenuToggle = document.querySelector('.menuToggle');
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
